@@ -61,31 +61,61 @@
     font-weight: bold;
 }
 
-.bienvenida{
+#bienvenida{
     background-color: #0000008b;
 }
 
 .bienvenida__titulo{
     color: #fff;
-    font-family: oswaldNegrito;
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-family: oswaldLight;
+    font-size: 1.6rem;
+    font-weight: bold;
     text-align: center;
-    margin-top: 35px;
-    padding: 10px;
+    margin:auto;
+    padding: 10px 0 0 0;
 }
 
 .bienvenida__texto{
     font-family: oswaldLight;
     color: #fff;
-    text-align: center;
     width: 50%;
+    padding: 20px;
+}
+
+.videoyTexto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .video{
-    border-radius: 50%;
+    border-radius: 80%;
+    margin-right: 20px;
 }
-@media screen and (min-width: 780px){
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+.marca__logo {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10%;
+}
+#marcas h2{
+    color: #fff;
+    text-align: center;
+    font-family: oswaldLight;
+    margin: 20px 0
+}
+.marca__nombre{
+    color: #fff;
+    text-align: center;
+    font-family: oswaldlight;
+}
+
+@media screen and (min-width: 450px){
     #computadores{
         display: block;
     }
