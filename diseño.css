@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#computadores{
+    display: none;
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+#computadores h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#computadores p {
+    font-size: 18px;
+    color: rgb(69, 69, 69);
+}
+
+#moviles{
+    display: block;
+        background-image: url(imagenes/pexels-photo-6479582.jpeg);
+    background-size: cover;
+}
+.transparencia{
+    background-color: rgba(0, 0, 0, 0.549);
+    z-index: 0;
+}
+#encabezado{
+    display: block;
+}
+
+.logo img{
+    display: block; margin: 0 auto;
+}
+
+.nav__items{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 15px;
+    font-family: oswaldLight;
+    font-size: 1.2rem;
+}
+
+#nav{
+    background-color: #0000008b;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav__items a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__items a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+@media screen and (min-width: 780px){
+    #computadores{
+        display: block;
+    }
+    #moviles{
+        display: none;
+    }
+}
+@font-face{
+    font-family: oswaldLight;
+    src: url(fuentes/static/Oswald-ExtraLight.ttf) format(truetype);
+}
+
+/*<div >
+                <form id="inicio__sesion">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email">
+                    <label for="contrasena">Contraseña: </label>
+                    <input type="password" name="contrasena">
+                </form>
+                <p id="mensaje__registro">Si no has creado tu perfil, <a href="#">¡Registrate aquí!</a></p>
+            </div>
+}
+
