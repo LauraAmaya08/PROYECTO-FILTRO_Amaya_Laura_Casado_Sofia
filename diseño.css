@@ -60,6 +60,31 @@
     color: #fff;
     font-weight: bold;
 }
+
+.bienvenida{
+    background-color: #0000008b;
+}
+
+.bienvenida__titulo{
+    color: #fff;
+    font-family: oswaldNegrito;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.bienvenida__texto{
+    font-family: oswaldLight;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+}
+
+.video{
+    border-radius: 50%;
+}
 @media screen and (min-width: 780px){
     #computadores{
         display: block;
@@ -71,6 +96,11 @@
 @font-face{
     font-family: oswaldLight;
     src: url(fuentes/static/Oswald-ExtraLight.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: oswaldNegrito;
+    src: url(fuentes/static/Oswald-Medium.ttf) format(truetype);
 }
 
 /*<div >
