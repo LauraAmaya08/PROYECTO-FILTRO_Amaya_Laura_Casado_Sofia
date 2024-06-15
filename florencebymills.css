@@ -11,6 +11,11 @@
     src: url(fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Light.ttf) format(truetype);
 }
 
+@font-face{
+    font-family: openSansNegrita;
+    src: url(fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Bold.ttf) format(truetype);
+}
+
 #computadores{
     display: none;
     text-align: center;
@@ -74,12 +79,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
-    margin: 25px;
+    margin: 0 25px;
 }
 
 .producto{
-    margin-top: 30px;
-    margin-bottom: 50px;
+    padding-top: 30px;
+
 }
 .producto__logo {
     width: 100%;
@@ -92,4 +97,56 @@
 .producto__nombre{
     font-family: openSans;
     text-align: center;
+    font-size: 0.8em;
+}
+
+.productos h2{
+    font-family: openSansNegrita;
+    text-align: center;
+    padding-top:30px ;
+    color: #6f6bb7;
+    font-size: 1.6em;
+    letter-spacing: -2px;
+}
+
+.precio__producto{
+    font-family: openSans;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.85em;
+}
+
+.volver{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #6f6bb7;
+    padding: 13px;
+}
+
+.volver a{
+    text-decoration: none;
+    font-family: openSans;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.logo__red{
+    padding: 5px 13px ;
+}
+
+.derechos{
+    text-align: center;
+    margin: 20px 0 70px 0;
+    color: #000;
+    font-family: openSans;
+    font-weight: 600;
+    font-size: 0.8em;
 }
