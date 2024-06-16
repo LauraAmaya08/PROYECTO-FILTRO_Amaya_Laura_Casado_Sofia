@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#computadores{
+    display: none;
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+#computadores h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#computadores p {
+    font-size: 18px;
+    color: rgb(69, 69, 69);
+}
+
+#moviles{
+    display: block;
+}
+
+@media screen and (min-width: 450px){
+    #computadores{
+        display: block;
+    }
+    #moviles{
+        display: none;
+    }
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
