@@ -34,9 +34,121 @@
     }
 }
 
+@font-face{
+    font-family: openSans;
+    src: url(fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Light.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: cursiva;
+    src: url(fuentes/static/DancingScript-Bold.ttf) format(truetype);
+}
+
 .inicio{
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.salud__mental{
+    padding: 10px;
+    text-align: center;
+    font-family: openSans;
+    font-size: 1.3em;
+    color: #7f2549;
+}
+
+.salud__mental em{
+    font-family: cursiva;
+    font-size: 1.5em;
+}
+
+.saludMental__descrip{
+    padding: 10px;
+    font-family: openSans;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.videoSelena{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.compra__titulo{
+    background-color: #7f2549;
+}
+.compra__titulo h2{
+    font-family: openSans;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin: 0 25px;
+}
+
+.producto{
+    padding-top: 30px;
+
+}
+.producto__logo {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.producto__nombre{
+    text-align: center;
+    padding: 8px;
+    font-family: openSans;
+    font-size: 0.9em;
+}
+
+.precio__producto{
+    text-align: center;
+    font-family: openSans;
+    font-size: 0.85em;
+}
+
+.volver{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #7f2549;
+    padding: 13px;
+}
+
+.volver a{
+    text-decoration: none;
+    font-family: openSans;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.logo__red{
+    padding: 5px 13px ;
+}
+
+.derechos{
+    text-align: center;
+    margin: 40px 0 40px 0;
+    color: #000;
+    font-family: openSans;
+    font-weight: 600;
+    font-size: 0.8em;
 }
