@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#computadores{
+    display: none;
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+#computadores h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#computadores p {
+    font-size: 18px;
+    color: rgb(69, 69, 69);
+}
+
+#moviles{
+    display: block;
+}
+
+@media screen and (min-width: 480px) {
+    #computadores{
+        display: block;
+    }
+    #moviles{
+        display: none;
+    }
+}
+
+@font-face{
+    font-family: openSans;
+    src: url(fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Light.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: openSansNegrita;
+    src: url(fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Bold.ttf) format(truetype);
+}
+
+
+.inicio{
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hogar{
+    padding-right: 40px;
+}
+
+h1{
+    padding: 20px;
+    font-family: openSansNegrita;
+}
+.productos{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 80px;
+}
+.producto{
+    margin: 15px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.591);
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.producto__imagen img{
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.producto__nombre{
+    padding-top: 20px;
+    font-family: openSansNegrita;
+    font-size: 0.8em;
+    letter-spacing: -0.5px;
+}
+
+.info{
+    width: 50%;
+}
+.producto__cantidad{
+    padding-top: 8px ;
+    align-self: start;
+    font-family: openSans;
+    font-size: 0.7em;
+}
+.producto__cantidad span{
+    font-family: openSansNegrita ;
+}
+
+.producto__precio{
+    padding-top: 8px ;
+    align-self: start;
+    font-family: openSans;
+    font-size: 0.7em;
+    margin-bottom: 8px;
+}
+.producto__precio span{
+    font-family: openSansNegrita ;
+}
+
+.eliminar{
+    align-self: center;
+}
+
+.boton__eliminar{
+    background-color: #fff;
+    border: none;
+}
+
+.especial{
+    color: rgb(253, 1, 1);
+}
+
+#contactos{
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: openSans;
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+.derechos{
+    color: #fff;
+    text-align: center;
+    font-family: openSans;
+    font-size: 0.7rem;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #000;
+}
+h2{
+    font-family: openSans;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 30px;
+}
+
+.metodos_pago{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.metodo{
+    margin-right: 20px;
+}
+
+.total{
+    text-align: end;
+    padding: 20px;
+    font-family: openSans;
+}
+
+h3 span{
+    font-family: openSansNegrita;
+    color: #000;
+}
+
+h3{
+    font-weight: 100;
+    color: rgb(164, 15, 15);
+    padding-bottom: 8px;
+}
+
+.botones{
+    margin: 20px;
+    display: flex;
+    justify-content: center
+}
+.botones button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.botones button:active{
+    background-color: #000;
+    color: #fff;
+}
