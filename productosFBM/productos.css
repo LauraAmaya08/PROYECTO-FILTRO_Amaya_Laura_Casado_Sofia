@@ -36,12 +36,12 @@
 
 @font-face{
     font-family: openSans;
-    src: url(fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Light.ttf) format(truetype);
+    src: url(../fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Light.ttf) format(truetype);
 }
 
 @font-face{
     font-family: openSansNegrita;
-    src: url(fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Bold.ttf) format(truetype);
+    src: url(../fuentes/fbm_fuentes/Open_Sans/static/OpenSans-Bold.ttf) format(truetype);
 }
 
 
