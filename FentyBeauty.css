@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 #computadores{
@@ -25,7 +24,7 @@
     display: block;
 }
 
-@media screen and (min-width: 450px){
+@media screen and (min-width: 450px) {
     #computadores{
         display: block;
     }
@@ -40,45 +39,38 @@
 }
 
 @font-face{
-    font-family: cursiva;
+    font-family: cursivaNegrita;
     src: url(fuentes/static/DancingScript-Bold.ttf) format(truetype);
 }
+
 
 .inicio{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
 }
 
-.salud__mental{
-    padding: 10px;
-    text-align: center;
+.cita{
+    padding: 20px;
     font-family: openSans;
-    font-size: 1.3em;
-    color: #7f2549;
-}
-
-.salud__mental em{
-    font-family: cursiva;
-    font-size: 1.5em;
-}
-
-.saludMental__descrip{
-    padding: 10px;
-    font-family: openSans;
+    font-size: 1.2em;
     text-align: center;
+}
+
+.autor{
+    text-align: end;
+    padding: 0 30px;
+    font-family: cursivaNegrita;
     font-size: 1.3em;
 }
 
-.videoSelena{
+.video_rihanna{
     display: flex;
     justify-content: center;
-    margin: 25px;
+    margin: 30px;
 }
 
 .compra__titulo{
-    background-color: #7f2549;
+    background-color: #000;
 }
 .compra__titulo h2{
     font-family: openSans;
@@ -122,7 +114,7 @@
     margin-top: 50px;
     margin-bottom: 30px;
     width: 100%;
-    background-color: #7f2549;
+    background-color: #000;
     padding: 13px;
 }
 
@@ -146,7 +138,7 @@
 
 .derechos{
     text-align: center;
-    margin: 40px 0 40px 0;
+    margin: 20px 0 70px 0;
     color: #000;
     font-family: openSans;
     font-weight: 600;
