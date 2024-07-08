@@ -1,4 +1,4 @@
-<h1>Glow Glam - Tienda de Maquillaje Móvil</h1>
+<h1>Glow Glam - Tienda de Maquillaje Móvil :lipstick:</h1>
 <p>Bienvenido a Glow Glam, el destino definitivo para los productos de maquillaje más exclusivos y deseados del mercado. Este proyecto es una tienda móvil que ofrece una amplia gama de marcas de maquillaje de alta calidad.</p>
 
 ## Tabla de Contenidos
